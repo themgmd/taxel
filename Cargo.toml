@@ -1,0 +1,6 @@
+[workspace]
+members = [ "crates/api", "crates/cli", "crates/database", "crates/errors", "crates/storage"]
+resolver = "2"
+exclude = []
+
+[workspace.dependecies]
